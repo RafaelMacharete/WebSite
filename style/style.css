@@ -24,8 +24,8 @@ nav{
 }
 
 nav > .logo{
-    width: 6.375rem;
-    height: 6.25rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 nav > .row{
@@ -40,8 +40,8 @@ nav > .row{
 }
 
 .logo > img{
-    width: 6.375rem;
-    height: 6.25rem;
+    width: 3rem;
+    height: 3rem;
     filter: brightness(1.2) contrast(0.7) saturate(2);
 }
 
@@ -111,6 +111,7 @@ nav > .row{
 }
 
 .menu_categorias{
+    
     position: sticky;
     position: -webkit-sticky;
     top: 0; 
@@ -150,7 +151,7 @@ nav > .row{
 }
 
 main{
-    padding: 0.625rem 15rem;
+    padding: 0.625rem 15rem 0 15rem;
 }
 
 section{
@@ -317,8 +318,180 @@ main > #categoria > .categoria > .conteiner-categoria > .conteiner-categoria-pro
     transform: scale(1.1);
 }
 
+main > .ofertas_exclusivas{
+    margin: -0.625rem -15rem 0 -15rem;
+}
+.ofertas_exclusivas{
+    background-color: #c7a5f8;
+    border-bottom: 1px solid gray;
+}
 
+.ofertas_exclusivas > .recebe_promocoes{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 0;
+}
+.ofertas_exclusivas > .recebe_promocoes > h2{
+    font-size: 2.5rem;
+}
+
+.ofertas_exclusivas > .recebe_promocoes > h3{
+    font-size: 1rem;
+}
+
+.ofertas_exclusivas > .recebe_promocoes > .promocoes{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /* background-color: #E3E0E9; */
+    border-radius: 0.9375rem;
+    position: relative;
+}
+
+.ofertas_exclusivas > .recebe_promocoes .promocoes > input{
+    width: 45rem;
+    height: 3.4rem;
+    padding-left: 1.4rem;
+    border-style: none;
+    transition: 0.25s ease;
+    border-radius: 0.2rem;
+}
+
+.ofertas_exclusivas > .recebe_promocoes .promocoes > input:focus{
+    box-shadow: 0px 0px 10px 0.5px #69b7f7;
+    outline: none;
+}
+
+.ofertas_exclusivas > .recebe_promocoes > .promocoes > i{
+    position: absolute;
+    right: 10px;    
+    color: #709ff7;
+    font-size: 2rem;
+}
 
 footer{
-    background-color: #fff;
+    background-color: #f3f3f3;
+}
+
+
+footer > .instituicao{
+    background-color: #f3f3f3;
+}
+
+footer > .instituicao > .conteiner{
+    padding: 6rem 15rem;
+    gap: 7.5rem;
+    display: flex;
+}    
+
+footer > .instituicao > .conteiner > .sobre__loja{
+    width: 23rem;
+    height: 23rem;
+    display: flex;    
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+footer > .instituicao > .conteiner > .sobre__loja > img{
+    width: 5rem;
+    height: 5rem;
+}
+
+footer > .instituicao > .conteiner > .sobre__loja > p{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    font-size: 1.2rem;
+}
+
+footer >.instituicao > .conteiner > .links__rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 0.74rem;
+}
+footer >.instituicao > .conteiner > .links__rodape > a{
+    text-decoration: none;
+    color: #0000007e;
+}
+
+footer >.instituicao > .conteiner > .links__rodape > a:hover{
+    text-decoration: underline;
+}
+
+.contato > h2{
+    padding-bottom: 1rem;
+}
+
+.contato > .whatsapp{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.contato > .whatsapp >#bi-whatsapp{
+    font-size: 2rem;
+    color: #3c3c;
+}
+
+.contato > .gmail{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 1rem 0;
+}
+
+.contato > .gmail > i{
+    font-size: 2rem;
+    color: #ff0000;
+}
+
+.conteiner > .contato > button {
+    height: fit-content;
+    padding: 0.7rem;    
+    border-radius: 0.4rem;
+    transition: 0.12s ease;
+    cursor: pointer;
+}
+
+.conteiner > .contato > button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.conteiner > .contato > .atendimento{
+    padding-top: 3.5rem;
+}
+
+.conteiner > .contato > .atendimento > h1{
+    font-size: 1.4rem;
+    padding-bottom: 1.6rem;
+}
+
+
+.conteiner > .contato > .atendimento > p{
+    padding-bottom: 1.2rem;
+    color: #0000007e;
+}
+.conteiner > .contato > .atendimento > button{
+    height: fit-content;
+    padding: 0.7rem;    
+    border-radius: 0.4rem;
+    transition: 0.12s ease;
+    cursor: pointer;
+}
+
+.conteiner > .contato > .atendimento > button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+/* 
+.conteiner > .contato > .redes__sociais > h2{
+    font-size:;
+} */
+
+.conteiner > .redes__sociais > i{
+    color: #ff0000;
 }
