@@ -35,6 +35,7 @@ nav > .row{
     justify-content: space-between;
     align-items: center;
     background-color: #10061F;
+    padding: 1rem 0;
     /* padding-left: 240px;
     padding-right: 240px; */
 }
@@ -492,6 +493,22 @@ footer >.instituicao > .conteiner > .links__rodape > a:hover{
     font-size:;
 } */
 
-.conteiner > .redes__sociais > i{
+.bi-instagram::before{
+    color: #9c2c71;
+    font-size: 2rem;
+}
+
+.bi-youtube::before{
     color: #ff0000;
+    font-size: 2rem;
+}
+
+.bi-facebook::before{
+    color: #0000ff;
+    font-size: 2rem;
+}
+
+.redes__sociais-logo{
+    display: flex;
+    gap: 1rem;
 }
