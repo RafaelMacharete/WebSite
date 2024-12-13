@@ -13,11 +13,12 @@ body{
     font-family: "Signika Negative", sans-serif;
 }
 
-i{
+i{ /* ícones */
     color: #E3E0E9;
     /* filter: invert(1) brightness(1); */
 }
 
+/* Início nav */
 nav{
     padding: 0 15rem;
     background-color: #10061F;
@@ -115,14 +116,16 @@ nav > .row{
     color: #E3E0E9;
     font-size: 2rem;
 }
+/* fim nav */
 
+/* início menu de categoiras/navegação */
 .menu_categorias{
     position: sticky;
     position: -webkit-sticky;
     top: 0; 
 }
 
-.menu_categorias > .deixar_no_meio{
+.menu_categorias > .container_central{
     padding: 0 15rem;
     display: flex;
     justify-content: space-between;
@@ -131,20 +134,20 @@ nav > .row{
     background-color: #10061F;
 }
 
-.menu_categorias > .deixar_no_meio > .alinhar{
+.menu_categorias > .container_central > .alinhar{
     display: flex;
     align-items: center;
     font-size: 1.875rem;
 }
 
-.menu_categorias > .deixar_no_meio > a, .menu_categorias > .deixar_no_meio> .alinhar > a{
+.menu_categorias > .container_central > a, .menu_categorias > .container_central> .alinhar > a{
     text-decoration: none;
     color: #ffffff;
     font-size: 1.25rem;
 }
 
 
-.menu_categorias  > .deixar_no_meio > .alinhar > p > i{
+.menu_categorias  > .container_central > .alinhar > p > i{
     margin-right: 10px;
     font-size: 1.875rem;
 }
@@ -154,7 +157,9 @@ nav > .row{
     width: 100%;
     filter: saturate(2) contrast(1) drop-shadow(0.3);
 }
+/* fim menu de categoiras/navegação */
 
+/* Início main */
 main{
     padding: 0.625rem 15rem 0 15rem;
 }
@@ -162,6 +167,8 @@ main{
 section{
     padding: 1.625rem 0;
 }
+
+/* Início Benefícios */
 
 main > section > .conteiner{
     display: flex;
@@ -197,7 +204,10 @@ main > section > .conteiner > #beneficios{
     display: flex;
     gap: 1rem;
 }
+/* Fim Benefícios */
 
+
+/* Início produtos destaques */
 main > section > .produtos__destaque{
     display: flex;
     justify-content: space-between;
@@ -274,6 +284,8 @@ main > section > .produtos__destaque > .produtos > .preco > .preco-detalhes > bu
 main > section > .produtos__destaque > .produtos > .preco > h3 > span{
     color: #c9c9c9;
 }
+/* Início produtos destaques */
+
 
 main > .conteiner{
     text-align: center;
@@ -377,6 +389,9 @@ main > .ofertas_exclusivas{
     font-size: 2rem;
 }
 
+/* Fim main */
+
+/* Início footer */
 footer{
     background-color: #f3f3f3;
 }
@@ -517,6 +532,9 @@ footer >.instituicao > .conteiner > .links__rodape > a:hover{
     gap: 1rem;
 }
 
+/* fim footer */
+
+/* página adm  */
 .adm {
     text-align: center;
 }
@@ -526,6 +544,7 @@ footer >.instituicao > .conteiner > .links__rodape > a:hover{
 .adm > h2 > a:visited{
     color: white;
 }
+/* página adm  */
 
 
 .conteiner_conteudo{
