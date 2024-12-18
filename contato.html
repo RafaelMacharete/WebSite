@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,136 +12,142 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>FireBit</title>
 </head>
+
 <body>
     <header>
 
         <nav>
             <!-- main bar -->
-            <div class="row"> 
+            <div class="row">
                 <div class="logo">
                     <img src="./images/logo.png" alt="logo">
                 </div>
-    
+
                 <div class="barra__pesquisa">
                     <input type="text" placeholder="Procurar">
                     <button title="botao">
-                       <i class="bi bi-search"></i>
+                        <i class="bi bi-search"></i>
                     </button>
                 </div>
-                
-                
+
+
                 <div class="carrinho">
                     <a href="checkout.html" title="Ir para o carrinho">
-                      <i class="bi bi-cart-plus"></i>
-                      <span>Carrinho</span>
+                        <i class="bi bi-cart-plus"></i>
+                        <span>Carrinho</span>
                     </a>
-                  </div>
+                </div>
             </div>
         </nav>
-        
+
         <div class="menu_categorias">
             <div class="container_central">
                 <div class="alinhar">
                     <a href="index.html">Início</a>
                 </div>
-    
+
                 <a href="products.html">Produtos</a>
-    
+
                 <a href="contato.html">Fale Conosco</a>
-    
+
                 <a href="sobre_nos.html">Sobre Nós</a>
 
 
             </div>
         </div>
-    
-        
-        </header>
 
 
-        <main>
-            <section class="area_formulario">
-                <h1>Fale Conosco</h1>
+    </header>
 
-                <form action="index.html" method="POST" class="formulario">
+    <main>
+        <section class="area_formulario">
+            <h1>Fale Conosco</h1>
 
-                    <label for="nome">
-                        Insira seu nome:
-                        <input type="text" name="nome">
-                    </label>
-                    
-                    <label for="email">
-                        Insira seu e-mail:
-                        <input type="email">
-                    </label>
+            <!-- Início formulário -->
+            <form action="index.html" method="POST" class="formulario">
 
-                    
-                    <label for="motivo">Motivo do contato:
-                        <textarea name="motivo"></textarea>
-                    </label>
-                    <input type="submit" value="Enviar Feedback" name="feedback">
-                    
-                </form>
-            </section>
-        </main>
+                <label for="nome">
+                    Insira seu nome:
+                    <input type="text" name="nome">
+                </label>
+
+                <label for="email">
+                    Insira seu e-mail:
+                    <input type="email">
+                </label>
 
 
-        
-          <!-- footer -->
-  <footer>
-    <div class="instituicao">
+                <label for="motivo">Motivo do contato:
+                    <textarea name="motivo"></textarea>
+                </label>
+                <input type="submit" value="Enviar Feedback" name="feedback">
 
-        <div class="conteiner">
+            </form>
+        </section>
+    </main>
 
-            <div class="sobre__loja">
-                <img src="images/logo.png" alt="">
-                <p>
-                    Nós da FireBit só pensamos em uma 
-                    única coisa: fazer os melhores equipamentos, 
-                    os mais bonitos, com a melhor qualidade e 
-                    com a melhor performance.
-                </p>
-            </div>
 
-            <div class="links__rodape">
-                <h2>Conteúdo</h2>
-                <a href="fale_conosco.html">Fale Conosco</a>
-                <a href="#">Meios de pagamento e de frete</a>
-                <a href="#">Política de Trocas e Devoluções</a>
-            </div>
 
-            <div class="contato">
-                <h2>ATENDIMENTO</h2>
-                <div class="whatsapp">
-                    <i class="bi bi-whatsapp" id="bi-whatsapp"></i>
-                    <p>(19)9 12345-6789</p>
-                </div>
-                <div class="gmail">
-                    <i class="bi bi-envelope"></i>
-                    <p>purplefire@gmail.com</p>
-                </div>
-                <button><h3>FALE CONOSCO</h3></button>
+    <!-- footer -->
+    <footer>
+        <div class="instituicao">
 
-                <div class="atendimento">
-                    <h1>HORÁRIO DE ATENDIMENTO</h1>
-                    <p>Seg a Sex das 8h às 18h</p>
-                    <button><h3>FALE CONOSCO</h3></button>
+            <div class="conteiner">
+
+                <div class="sobre__loja">
+                    <img src="images/logo.png" alt="">
+                    <p>
+                        Nós da FireBit só pensamos em uma
+                        única coisa: fazer os melhores equipamentos,
+                        os mais bonitos, com a melhor qualidade e
+                        com a melhor performance.
+                    </p>
                 </div>
 
-            </div>
+                <div class="links__rodape">
+                    <h2>Conteúdo</h2>
+                    <a href="fale_conosco.html">Fale Conosco</a>
+                    <a href="#">Meios de pagamento e de frete</a>
+                    <a href="#">Política de Trocas e Devoluções</a>
+                </div>
 
-            <div class="redes__socias">
-                <h2>ACOMPANHE NAS REDES</h2>
-                <div class="redes__sociais-logo">
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-youtube"></i>
-                    <i class="bi bi-facebook"></i>
+                <div class="contato">
+                    <h2>ATENDIMENTO</h2>
+                    <div class="whatsapp">
+                        <i class="bi bi-whatsapp" id="bi-whatsapp"></i>
+                        <p>(19)9 12345-6789</p>
+                    </div>
+                    <div class="gmail">
+                        <i class="bi bi-envelope"></i>
+                        <p>purplefire@gmail.com</p>
+                    </div>
+                    <button>
+                        <h3>FALE CONOSCO</h3>
+                    </button>
+
+                    <div class="atendimento">
+                        <h1>HORÁRIO DE ATENDIMENTO</h1>
+                        <p>Seg a Sex das 8h às 18h</p>
+                        <button>
+                            <h3>FALE CONOSCO</h3>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="redes__socias">
+                    <h2>ACOMPANHE NAS REDES</h2>
+                    <div class="redes__sociais-logo">
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-facebook"></i>
+                    </div>
                 </div>
             </div>
+
         </div>
-        
-    </div>
-    
-</footer>
+
+    </footer>
 </body>
+
 </html>
